@@ -1,0 +1,155 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+    color: #333;
+}
+header{
+	background-color:#fbf9f1;
+	width:100%
+}
+.logo{
+	margin:auto 50%;
+}
+nav{
+	background-color:black;
+	padding: 10px 0;
+    text-align: center;
+}
+nav li{
+	list-style-type:none;
+	display:inline;
+	margin:5%;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	font-family:18px;
+	padding: 10px 40px;
+    transition: 0.3s;
+}
+nav a:hover{
+	background-color:#0275d8;
+	border-radius: 5px;
+}
+h1{
+	text-align:center;
+	color:#941616;
+	font-size:xxx-large;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.categorie1 {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	cursor:pointer;
+}
+.categories a{
+    text-decoration: none;
+	color: inherit;
+}
+blockquote {
+    font-style: italic;
+    background: #e9ecef;
+    padding: 10px;
+    border-left: 5px solid blue;
+    margin: 10px 0;
+}
+form {
+    display: flex;
+	justify-content: center;
+}
+input[type="email"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #025aa5;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+footer a{
+	text-decoration:none;
+	color:white;
+	cursor:pointer;
+}
+.promo .categories .categorie1 img{
+	width:259px;
+}
+.prix {
+    font-weight: bold;
+    color: green;
+}
+
+.promotion {
+    text-decoration: line-through;
+    color: red;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cc5500;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #0275d8;
+    display: inline-block;
+    padding-bottom: 5px;
+	color:red;
+}

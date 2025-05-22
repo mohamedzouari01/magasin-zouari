@@ -1,0 +1,78 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+    color: #333;
+}
+header{
+	background-color:#fbf9f1;
+	width:100%;
+	text-align:center;
+	color:black;
+}
+nav{
+	background-color:black;
+	padding: 10px 0;
+    text-align: center;
+}
+nav li{
+	list-style-type:none;
+	display:inline;
+	margin:5%;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	font-family:18px;
+	padding: 10px 40px;
+    transition: 0.3s;
+}
+nav a:hover{
+	background-color:#0275d8;
+	border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+form table {
+    width: 100%;
+}
+input[type="checkbox"]{
+	width:inherit;
+}
+input, select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="submit"], input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 1%;
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #025aa5;
+}
+section {
+	max-width: 900px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
