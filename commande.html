@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande - Grand Magasin</title>
+    <link rel="stylesheet" href="css/commande.css">
+</head>
+<body>
+
+    <header>
+        <h1>Finaliser votre commande</h1>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Accueil</a></li>
+                <li><a href="categorie1.html">Catégories</a></li>
+                <li><a href="produits.html">Produit</a></li>
+                <li><a href="contact1.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+	<section class="commande-form">
+		<form action="ress.html" method="post">
+			<table>
+				<tr>
+					<td>
+						<label for="nom"> Nom complet :</label>
+					</td>
+					<td>
+						<input type="text" name="nom" id="nom" placeholder="donner votre nom complet" required />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Email">Email :</label>
+					</td>
+					<td>
+						<input type="email" name="Email" id="Email" placeholder="donner votre email" required />
+					</td>
+				</tr>				
+				<tr>
+					<td>
+						<label for="tel">Téléphone :</label>
+					</td>
+					<td>
+						<input type="tel" name="tel" id="tel" pattern="[0-9]{8}" placeholder="donner votre Téléphone" required />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="address">Adresse de livraison :</label>
+					</td>
+					<td>
+						<input type="text" name="address" id="address" required />
+					</td>
+				</tr>
+				<tr>
+					<td><label for="ville"><b>Ville:</b></label></td>
+					<td>
+						<select id="ville" name="ville" required>
+							<option value="Sfax" selected>Sfax</option>
+							<option value="Ariana">Ariana</option>
+							<option value="Béja">Béja</option>
+							<option value="Ben Arous">Ben Arous</option>
+							<option value="Bizerte">Bizerte</option>
+							<option value="Gabès">Gabès</option>
+							<option value="Gafsa">Gafsa</option>
+							<option value="Jendouba">Jendouba</option>
+							<option value="Kairouan">Kairouan</option>
+							<option value="Kasserine">Kasserine</option>
+							<option value="Kébili">Kébili</option>
+							<option value="Kef">Kef</option>
+							<option value="Mahdia">Mahdia</option>
+							<option value="Manouba">Manouba</option>
+							<option value="Médenine">Médenine</option>
+							<option value="Monastir">Monastir</option>
+							<option value="Nabeul">Nabeul</option>
+							<option value="Sidi Bouzid">Sidi Bouzid</option>
+							<option value="Siliana">Siliana</option>
+							<option value="Sousse">Sousse</option>
+							<option value="Tataouine">Tataouine</option>
+							<option value="Tozeur">Tozeur</option>
+							<option value="Tunis">Tunis</option>
+							<option value="Zaghouan">Zaghouan</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="code">Code postal :</label></td>
+					<td><input type="text" name="code" id="code" pattern="[0-9]{4}" required /></td>
+				</tr>
+				<tr>
+					<td><label for="couleur">Couleur du produit: </label></td>
+					<td><input type="color" id="couleur" name="couleur" required /></td>
+				</tr>
+				<tr>
+					<td><label for="q">Quantité :</label></td>
+					<td><input type="number" min="1" max="5" value="1" required /></td>
+				</tr>
+				<tr>
+					<td><label for="mode">Mode de paiement :</label></td>
+					<td>
+						<select id="mode" name="mode" required>
+							<option value="carte bancaire"> Carte bancaire</option>
+							<option value="PayPal">PayPal</option>
+							<option value="paiement à la livraison">paiement à la livraison</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" id="condition" name="condition" required />
+						<label for="condition">J'accepte les conditions générales de vente</label>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Passer la commamde" /></td>
+					<td><input type="reset"/></td>
+				</tr>
+			</table>
+		</form>
+	</section>
+    <footer>
+        <p>&copy; 2025 Grand Magasin - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
